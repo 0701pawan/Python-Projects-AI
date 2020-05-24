@@ -65,7 +65,7 @@ if __name__=="__main__":
     while True:
      query = takeCommand().lower()
 
-     #Below are the Commands we want the assitant to perform
+     ########################### Below are the Commands we want the assitant to perform ########################
 
      if 'who' in query:
         query=query.replace("who is","")
